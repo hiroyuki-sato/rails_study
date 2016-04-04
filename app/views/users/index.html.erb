@@ -3,6 +3,7 @@
 <h4>Listing Users</h4>
 
 <%= page_entries_info @users %>
+<%= paginate @users %>
 
 <table>
   <thead>
@@ -35,5 +36,7 @@
 </table>
 
 <br>
+
+<%# render 'kaminari/paginator' %>
 
 <%= link_to 'New User', new_user_path %>
