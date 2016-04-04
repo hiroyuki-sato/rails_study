@@ -47,4 +47,6 @@ end
 
 gem 'foundation-rails'
 gem 'foundation-icons-sass-rails'
+gem 'simple_form'
+
 
